@@ -1,13 +1,5 @@
-#centered {
-    position: absolute;
-    width: 100%;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -30%);
-}
-
-#avatarImg {
-    width: 6em;
+#avatar-img {
+    width: 10em;
     border-radius: 10em;
     border-width: 0.2em;
     border-style: solid;
