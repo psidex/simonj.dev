@@ -3,15 +3,19 @@
 
   <head>
     <meta charset="utf-8">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
+
+    <link rel="preload" href="./img/me-low.jpg" as="image" />
+    <link rel="preload" href="./img/me.jpg" as="image" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="Personal website for Simon Jenner." />
-    <meta name="keywords" content="" />
+    <!-- <meta name="description" content="" /> -->
+    <!-- <meta name="keywords" content="" /> -->
     <meta name="author" content="Simon Jenner" />
 
     <meta property="og:title" content="Simon Jenner" />
-    <meta property="og:description" content="Personal website for Simon Jenner." />
+    <!-- <meta property="og:description" content="" /> -->
     <meta property="og:url" content="https://simonj.dev" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_GB" />
@@ -24,26 +28,21 @@
   </head>
 
   <body>
+    <div id="avatar-img" />
     <section id="centered">
-      <img id="avatar-img" src="./img/me.png" />
       <h1>Simon Jenner</h1>
-      <p>Software Engineer</p>
 
       <div id="links">
         <a href="mailto:simjenner3@gmail.com">
-          <img src="img/mail.svg">
           <p>Email</p>
         </a>
         <a target="_blank" href="https://github.com/psidex">
-          <img src="img/github.svg">
-          <p>GitHub</p>
+          <p>Projects</p>
         </a>
-        <a target="_blank" href="https://www.linkedin.com/in/simon-j-jenner/">
-          <img src="img/linkedin.svg">
-          <p>LinkedIn</p>
+        <a target="_blank" href="https://photos.simonj.dev/">
+          <p>Photos</p>
         </a>
       </div>
-
     </section>
   </body>
 

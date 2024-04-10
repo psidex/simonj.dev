@@ -1,9 +1,16 @@
 #avatar-img {
-    width: 10em;
-    border-radius: 10em;
-    border-width: 0.2em;
-    border-style: solid;
-    border-color: #2c2c2c;
+    position: absolute;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    /* https://stackoverflow.com/questions/27934548 */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../img/me.jpg"), url("../img/me-low.jpg");
 }
 
 #links {
